@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/black_200"
+    tools:context=".ui.login.registration.Registration">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        app:cardBackgroundColor="@color/brown"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:padding="25dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:fontFamily="@font/geo"
+                    android:labelFor="@id/username"
+                    android:text="@string/prompt_username"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_200"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:autofillHints=""
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    tools:layout_editor_absoluteX="90dp"
+                    tools:layout_editor_absoluteY="131dp">
+
+                </EditText>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:ems="10"
+
+                    android:fontFamily="@font/geo"
+                    android:labelFor="@id/email"
+                    android:text="@string/prompt_email"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_200"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:autofillHints=""
+                    android:inputType="textEmailAddress"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="90dp"
+                    tools:layout_editor_absoluteY="131dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:ems="10"
+
+                    android:fontFamily="@font/geo"
+                    android:labelFor="@id/password1"
+                    android:text="@string/prompt_password"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_200"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+
+                <EditText
+                    android:id="@+id/password1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:autofillHints=""
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="90dp"
+                    tools:layout_editor_absoluteY="131dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:ems="10"
+
+                    android:fontFamily="@font/geo"
+                    android:labelFor="@id/password2"
+                    android:text="@string/prompt_password2"
+                    android:textAlignment="center"
+                    android:textColor="@color/orange_200"
+                    android:textSize="24sp"
+                    tools:layout_editor_absoluteX="53dp"
+                    tools:layout_editor_absoluteY="38dp" />
+
+
+                <EditText
+                    android:id="@+id/password2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:autofillHints=""
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    tools:layout_editor_absoluteX="90dp"
+                    tools:layout_editor_absoluteY="131dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action_sign_in_short"
+                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteY="636dp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
