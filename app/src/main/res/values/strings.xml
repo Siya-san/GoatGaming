@@ -1,15 +1,17 @@
 <resources>
-    <string name="app_name">GoatGaming</string>
+    <string name="app_name">Goat Gaming</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">@string/app_name</string>
+    <string name="nav_header_subtitle">www.goatgamingsa.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_booking">Booking</string>
+    <string name="menu_store">Store</string>
+    <string name="menu_giveaway">Giveaway</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -29,8 +31,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_registration">Registration</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
@@ -71,4 +71,16 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="or">OR</string>
+    <string name="menu_event">Event</string>
+    <string name="create_event">Create Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_price">Entry Fee</string>
+    <string name="event_pool">Price Pool</string>
+    <string name="signUpQuestion">Imagine not having any account sign-up here</string>
+    <string name="loginInstructions">Login here use email or username</string>
+    <string name="signUpTitle">Signing up is the best decision you ever made</string>
+    <string name="signInQuestion">Wow forget you had an account</string>
+    <string name="your_event">Your Upcoming events</string>
+    <string name="your_bookings">Your Upcoming Bookings</string>
 </resources>

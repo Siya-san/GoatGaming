@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:background="@drawable/rounded_brown_rectangle"
+android:gravity="center_horizontal"
+android:orientation="vertical"
+android:padding="8dp">
+
+<ImageView
+    android:id="@+id/bookingImage"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/bg" />
+
+<com.google.android.material.textfield.TextInputLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:hint="@string/event_name">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:hint="@string/event_date">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:hint="Rate"
+    android:textAlignment="center">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/bookingRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+
+</LinearLayout>
+
+

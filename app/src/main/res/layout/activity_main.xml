@@ -19,8 +19,9 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="@color/brown"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_brown_rectangle"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />

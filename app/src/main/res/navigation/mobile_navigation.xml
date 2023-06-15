@@ -18,8 +18,46 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.goatgaming.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_booking"
+        android:name="com.example.goatgaming.ui.booking.BookingFragment"
+        android:label="@string/menu_booking"
+        tools:layout="@layout/fragment_booking" />
+
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.example.goatgaming.ui.event.EventFragment"
+        android:label="@string/menu_event"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.example.goatgaming.ui.store.StoreFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/fragment_store" />
+
+    <fragment
+    android:id="@+id/nav_giveaway"
+    android:name="com.example.goatgaming.ui.giveaway.GiveawayFragment"
+    android:label="@string/menu_giveaway"
+    tools:layout="@layout/fragment_giveaway" />
+    <fragment
+        android:id="@+id/nav_create_event"
+        android:name="com.example.goatgaming.ui.event.EventCreateFragment"
+        android:label="@string/create_event"
+        tools:layout="@layout/fragment_event_create" />
+    <fragment
+        android:id="@+id/nav_event_signup"
+        android:name="com.example.goatgaming.ui.event.EventSignUpFragment"
+        android:label="Event Sign-Up"
+        tools:layout="@layout/fragment_event_sign_up" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.goatgaming.ui.store.CartFragment"
+        android:label="Cart" />
+    <fragment
+        android:id="@+id/bookingReviewFragment"
+        android:name="com.example.goatgaming.ui.booking.BookingReviewFragment"
+        android:label="Making Booking"
+        tools:layout="@layout/fragment_booking_review" />
+
 </navigation>
